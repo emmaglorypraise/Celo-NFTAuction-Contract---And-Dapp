@@ -90,7 +90,7 @@ function NftAuction({ nftContractAddress, auctionContractAddress, erc721Abi }: N
   return (
     <div className="max-w-md mx-auto mt-8">
       <div className="border-2 border-gray-200 p-4">
-        <img src={NFTImage} alt="NFT" className="mx-auto" />
+        <img src={NFTImage.src} alt="NFT" className="mx-auto" />
       </div>
       <div className="mt-4">
         <p className="text-gray-600">Auction Status : {auctionStatus == true ? "Auction is on" : "Auction is not on"} </p>
